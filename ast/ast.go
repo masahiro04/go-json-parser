@@ -19,3 +19,8 @@ type String struct {
 type Integer struct {
 	Value string
 }
+
+func (node String) TokenLiteral()  {}
+func (node Integer) TokenLiteral() {}
+func (node Array) TokenLiteral()   {}
+func (node Object) TokenLiteral()  {}
