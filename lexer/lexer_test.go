@@ -12,17 +12,17 @@ func TestLexer(t *testing.T) {
 			"GlossDiv": {
 				"title": "S",
 				"GlossList": {
-			                "GlossEntry": {
+					"GlossEntry": {
 						"GlossTerm": "Standard Generalized Markup Language",
 						"Abbrev": "ISO 8879:1986",
 						"GlossDef": {
-				                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+							"para": "A meta-markup language, used to create markup languages such as DocBook.",
 							"GlossSeeAlso": ["GML", "XML"]
-				                },
+						},
 						"GlossSee": "markup"
-				                }
-				        },
-				        "Nums": 5245243
+						}
+					},
+					"Nums": 5245243
 				}
 			}
 		}`
